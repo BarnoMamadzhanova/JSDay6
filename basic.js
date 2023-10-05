@@ -8,4 +8,5 @@ console.log(sandwiches1);
 
 let fries1 = JSON.parse(fries);
 
-document.getElementById('result').innerHTML = `My favorite sandwich is a ${sandwiches1.sandwich} which has approximately ${sandwiches1.calories} calories, along with it I enjoy eating ${fries1.fries_size} which have about ${fries.calories} calories.`
+document.getElementById('result').innerHTML = `My favorite sandwich is a ${sandwiches1.sandwich} which has approximately ${sandwiches1.calories} calories,
+ along with it I enjoy eating ${fries1.fries_size} which have about ${fries1.calories} calories.`
